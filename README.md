@@ -1,24 +1,27 @@
-# README
+# Rails チュートリアルのサンプル
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+これは、次の教材で作られたサンプルアプリケーションです。  
+[_Ruby on Rails チュートリアル_](https://railstutorial.jp/)
+[Michael Hartl](http://www.michaelhartl.com/) 著
 
-Things you may want to cover:
+## ライセンス
 
-* Ruby version
+[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
+ソースコードは MIT ライセンスと Beerware ライセンスのもとで公開されています。
+詳細は [LICENSE.md](LICENSE.md) をご覧ください。
 
-* System dependencies
+## 本家の Rails チュートリアルと違うところ
 
-* Configuration
+- Rails6 を利用する
+- ローカルでも heroku でも MySQL を利用する
+- テストフレームワークに rspec を利用する
+- webpacker ではなく [hokaccha/simpacker](https://github.com/hokaccha/simpacker) を利用する
 
-* Database creation
+## Usage
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ bundle install --without production
+$ bundle exec rails db:migrate
+$ bundle exec rspec
+$ bundle exec rails server
+```
