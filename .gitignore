@@ -27,4 +27,6 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+/.vscode/
 /node_modules/
+/spec/examples.txt
