@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./app/javascript/application.scss"],"names":[],"mappings":"AAAA;AACA,2BAA2B","file":"application.css","sourcesContent":["body {\n  background-color: tomato; }\n"],"sourceRoot":""}

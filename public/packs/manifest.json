@@ -1,4 +1,6 @@
 {
+  "application.css": "/packs/application.css",
+  "application.css.map": "/packs/application.css.map",
   "application.js": "/packs/application.js",
   "application.js.map": "/packs/application.js.map"
 }
